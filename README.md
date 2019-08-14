@@ -3,5 +3,7 @@
 
 
 使用方法：
+
 1，安装最新的python  -- python3
+
 2. 执行 python + 文件名
