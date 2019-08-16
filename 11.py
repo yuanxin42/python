@@ -2,9 +2,9 @@ from PIL import Image
  
 # 二值化处理
 def two_value():
-    for i in range(1,1):
+    for i in range(1,5):
         # 打开文件夹中的图片
-        image=Image.open('./Img/'+str(i)+'.jpg')
+        image=Image.open('./Img/1.jpg')
         # 灰度图
         lim=image.convert('L')
         # 灰度阈值设为165，低于这个值的点全部填白色
